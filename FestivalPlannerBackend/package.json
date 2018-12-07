@@ -1,0 +1,26 @@
+{
+  "name": "festivalplannerbackend",
+  "version": "1.0.0",
+  "description": "SPA individueel FestivalPlanner backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "SET NODE_ENV=test & nodemon --exec \"mocha -R min\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yboeckholtz/FestivalPlannerBackend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yboeckholtz/FestivalPlannerBackend/issues"
+  },
+  "homepage": "https://github.com/Yboeckholtz/FestivalPlannerBackend#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mocha": "^5.2.0",
+    "mongoose": "^5.3.14",
+    "supertest": "^3.3.0"
+  }
+}
